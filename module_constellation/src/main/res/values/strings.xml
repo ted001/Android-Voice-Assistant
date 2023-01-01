@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">星座</string>
+
+    <string name="text_week_select">第%d周</string>
+    <string name="text_month_select">第%d月</string>
+    <string name="text_def_con_tell">射手座</string>
+
+    <string name="text_con_tell_name">星座名称：%s</string>
+    <string name="text_con_tell_time">当前时间：%s</string>
+    <string name="text_con_tell_num">幸运数字：%d</string>
+    <string name="text_con_tell_pair">速配星座：%s</string>
+    <string name="text_con_tell_color">幸运颜色：%s</string>
+    <string name="text_con_tell_desc">今日概述：%s</string>
+
+</resources>

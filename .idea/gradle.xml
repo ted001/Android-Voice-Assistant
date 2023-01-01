@@ -15,6 +15,14 @@
             <option value="$PROJECT_DIR$/lib_base" />
             <option value="$PROJECT_DIR$/lib_network" />
             <option value="$PROJECT_DIR$/lib_voice" />
+            <option value="$PROJECT_DIR$/module_app_manager" />
+            <option value="$PROJECT_DIR$/module_constellation" />
+            <option value="$PROJECT_DIR$/module_developer" />
+            <option value="$PROJECT_DIR$/module_joke" />
+            <option value="$PROJECT_DIR$/module_map" />
+            <option value="$PROJECT_DIR$/module_setting" />
+            <option value="$PROJECT_DIR$/module_voice_setting" />
+            <option value="$PROJECT_DIR$/module_weather" />
           </set>
         </option>
       </GradleProjectSettings>

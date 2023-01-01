@@ -6,11 +6,13 @@ plugins {
 
 //Android属性
 android {
-    compileSdkVersion(AppConfig.compileSdkVersion)
+    namespace = "com.ted.module_app_manager"
+    compileSdk = AppConfig.compileSdkVersion
+
     defaultConfig {
         applicationId = AppConfig.applicationId
-        minSdkVersion(AppConfig.minSdkVersion)
-        targetSdkVersion(AppConfig.targetSdkVersion)
+        minSdk = AppConfig.minSdkVersion
+        targetSdk = AppConfig.targetSdkVersion
         versionCode = AppConfig.versionCode
         versionName = AppConfig.versionName
 
@@ -70,11 +72,17 @@ android {
 }
 
 dependencies {
-    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
+    implementation(project(":lib_base"))
 
-    //Android标准库
-    implementation(DependenciesConfig.APP_COMPAT)
-    //Kotlin核心库
-    implementation(DependenciesConfig.KTX_CORE)
+    if (!ModuleConfig.isApp) {
+        implementation(project(":module_app_manager"))
+        implementation(project(":module_constellation"))
+        implementation(project(":module_developer"))
+        implementation(project(":module_joke"))
+        implementation(project(":module_map"))
+        implementation(project(":module_setting"))
+        implementation(project(":module_voice_setting"))
+        implementation(project(":module_weather"))
+    }
 
 }

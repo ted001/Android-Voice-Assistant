@@ -18,7 +18,7 @@ object AppConfig {
     const val buildToolsVersion = "28.0.3"
 
     //包名
-    const val applicationId = "com.ted.aivoiceapp"
+    var applicationId = "com.ted.aivoiceapp"
 
     //最小支持SDK
     const val minSdkVersion = 21
