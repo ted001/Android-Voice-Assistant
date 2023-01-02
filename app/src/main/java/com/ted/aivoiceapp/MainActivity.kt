@@ -3,6 +3,7 @@ package com.ted.aivoiceapp
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import com.ted.lib_base.base.BaseActivity
 import com.ted.lib_base.event.EventManager
 import com.ted.lib_base.event.MessageEvent
 import com.ted.lib_base.helper.ARouterHelper
@@ -11,30 +12,20 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        EventManager.register(this)
-        btn1.setOnClickListener {
-            ARouterHelper.startActivity(ARouterHelper.PATH_JOKE)
-        }
-        btn2.setOnClickListener {
-            EventManager.post(222, "hello")
-        }
+class MainActivity : BaseActivity() {
+    override fun getLayoutId(): Int {
+        return R.layout.activity_main
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onMessageEvent(event: MessageEvent?) {
-        when (event?.type) {
-            111 -> Log.d("TestApp", "onMessageEvent: 111")
-            222 -> Log.d("TestApp", "onMessageEvent: 222, ${event?.stringValue}")
-        }
+    override fun getTitleText(): String {
+        return getString(R.string.app_name)
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        EventManager.unRegister(this)
+    override fun isShowBack(): Boolean {
+        return false
+    }
+
+    override fun initView() {
+        ARouterHelper.startActivity(ARouterHelper.PATH_APP_MANAGER)
     }
 }

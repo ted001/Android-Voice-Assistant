@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--4 x 6 宫格-->
+
+    <!--第一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <!--第一格-->
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <!--第二格-->
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <!--第三格-->
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+        </LinearLayout>
+
+        <!--第四格-->
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第三行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第四行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第五行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--第六行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/AppManagerLinearStyle">
+
+            <ImageView style="@style/AppManagerImageStyle" />
+
+            <TextView style="@style/AppManagerTextStyle" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

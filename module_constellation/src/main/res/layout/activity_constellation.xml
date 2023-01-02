@@ -4,5 +4,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--标题栏-->
+    <LinearLayout
+        android:id="@+id/mLlContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mTvToday"
+            style="@style/ConstellationTextStyle"
+            android:text="@string/app_date_today" />
+
+        <TextView
+            android:id="@+id/mTvTomorrow"
+            style="@style/ConstellationTextStyle"
+            android:text="@string/app_date_tomorrow" />
+
+        <TextView
+            android:id="@+id/mTvWeek"
+            style="@style/ConstellationTextStyle"
+            android:text="@string/app_date_week" />
+
+        <TextView
+            android:id="@+id/mTvMonth"
+            style="@style/ConstellationTextStyle"
+            android:text="@string/app_date_month" />
+
+        <TextView
+            android:id="@+id/mTvYear"
+            style="@style/ConstellationTextStyle"
+            android:text="@string/app_date_year" />
+
+    </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
 </LinearLayout>

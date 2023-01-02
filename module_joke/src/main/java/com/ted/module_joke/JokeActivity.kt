@@ -7,8 +7,19 @@ import com.ted.lib_base.helper.ARouterHelper
 
 @Route(path = ARouterHelper.PATH_JOKE)
 class JokeActivity : BaseActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_joke)
+    override fun getLayoutId(): Int {
+        return R.layout.activity_joke
     }
+
+    override fun getTitleText(): String {
+        return getString(com.ted.lib_base.R.string.app_title_joke)
+    }
+
+    override fun isShowBack(): Boolean {
+        return true
+    }
+
+    override fun initView() {
+    }
+
 }

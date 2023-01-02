@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">小爱同学</string>
+
+    <!--标题-->
+    <string name="app_title_weather">天气</string>
+    <string name="app_title_app_manager">应用管理</string>
+    <string name="app_title_voice_setting">语音设置</string>
+    <string name="app_title_system_setting">系统设置</string>
+    <string name="app_title_developer">开发者模式</string>
+    <string name="app_title_map">地图</string>
+    <string name="app_title_city_select">城市选择</string>
+    <string name="app_title_joke">笑话</string>
+    <string name="app_title_constellation">星座</string>
+
+    <!--欢迎词-->
+    <string name="app_voice_ready">语音引擎准备完毕，你可以说“xxx”将我唤醒</string>
+    <string name="app_voice_no_speak">你不说话，那我就退下了</string>
+
+    <!--日期-->
+    <string name="app_date_today">今天</string>
+    <string name="app_date_tomorrow">明天</string>
+    <string name="app_date_week">本周</string>
+    <string name="app_date_month">本月</string>
+    <string name="app_date_year">今年</string>
+
+    <!--服务词语-->
+    <string name="app_server_ready_text">正在聆听…</string>
+    <string name="app_server_open_app_tts">正在为你打开</string>
+    <string name="app_server_un_install_app_tts">正在为你卸载</string>
+    <string name="app_server_uninstall_app_tts">未安装</string>
+    <string name="app_server_click_confirm">请点击确定按钮</string>
+    <string name="app_server_launcher_app_store">正在为你启动应用商店</string>
+    <string name="app_server_uninstall_app_store">系统未安装应用商店</string>
+
+    <!--天气-->
+    <string name="app_weather_t">°</string>
+    <string name="app_weather_humidity">湿度</string>
+    <string name="app_weather_direct">风向</string>
+    <string name="app_weather_power">风力</string>
+    <string name="app_weather_aqi">空气</string>
+    <string name="app_weather_data_error">数据异常</string>
+    <string name="app_weather_hot">热门</string>
+    <string name="app_weather_city">市</string>
+    <string name="app_weather_district">县</string>
+
+    <!--多媒体-->
+    <string name="app_media_play">播放</string>
+    <string name="app_media_pause">暂停</string>
+
+    <!--通用-->
+    <string name="text_load_fail">加载失败</string>
+
+    <!--固定数据-->
+    <array name="DeveloperListArray">
+        <item>[组件化]</item>
+        <item>跳转应用管理</item>
+        <item>跳转星座</item>
+        <item>跳转笑话</item>
+        <item>跳转地图</item>
+        <item>跳转设置</item>
+        <item>跳转语音设置</item>
+        <item>跳转天气</item>
+        <item>[在线识别]</item>
+        <item>开始识别</item>
+        <item>停止识别</item>
+        <item>取消识别</item>
+        <item>释放识别</item>
+        <item>[本地唤醒]</item>
+        <item>开始唤醒</item>
+        <item>停止唤醒</item>
+        <item>[离线识别]</item>
+        <item>加载离线识别</item>
+        <item>卸载离线识别</item>
+        <item>[TTS]</item>
+        <item>TTS开始</item>
+        <item>TTS暂停</item>
+        <item>TTS继续</item>
+        <item>TTS停止</item>
+        <item>TTS释放</item>
+        <item>[功能测试]</item>
+        <item>启动电话</item>
+    </array>
+
+    <!--主页列表标题-->
+    <array name="MainTitleArray">
+        <item>天气</item>
+        <item>星座</item>
+        <item>笑话</item>
+        <item>地图</item>
+        <item>应用管理</item>
+        <item>语音设置</item>
+        <item>系统设置</item>
+        <item>开发者模式</item>
+    </array>
+
+    <!--商店列表-->
+    <array name="AppMarketArray">
+        <!--Google Play-->
+        <item>com.android.vending</item>
+        <!--应用宝-->
+        <item>com.tencent.android.qqdownloader</item>
+        <!--360手机助手-->
+        <item>com.qihoo.appstore</item>
+        <!--百度手机助手-->
+        <item>com.baidu.appsearch</item>
+        <!--小米应用商店-->
+        <item>com.xiaomi.market</item>
+        <!--豌豆荚-->
+        <item>com.wandoujia.phoenix2</item>
+        <!--华为应用市场-->
+        <item>com.huawei.appmarket</item>
+        <!--淘宝手机助手-->
+        <item>com.taobao.appcenter</item>
+        <!--安卓市场-->
+        <item>com.hiapk.marketpho</item>
+        <!--安智市场-->
+        <item>cn.goapk.market</item>
+    </array>
+
+    <!--热门城市-->
+    <array name="HotCityArray">
+        <item>深圳</item>
+        <item>广州</item>
+        <item>东莞</item>
+        <item>惠州</item>
+        <item>佛山</item>
+        <item>珠海</item>
+        <item>长沙</item>
+        <item>武汉</item>
+        <item>北京</item>
+    </array>
+
+    <!--星座-->
+    <array name="ConstellArray">
+        <item>白羊座</item>
+        <item>金牛座</item>
+        <item>双子座</item>
+        <item>巨蟹座</item>
+        <item>狮子座</item>
+        <item>处女座</item>
+        <item>天秤座</item>
+        <item>天蝎座</item>
+        <item>射手座</item>
+        <item>摩羯座</item>
+        <item>水瓶座</item>
+        <item>双鱼座</item>
+    </array>
+
+    <!--星座时间-->
+    <array name="ConstellTimeArray">
+        <item>3月21日至4月19日，象征着新的开始</item>
+        <item>4月20日至5月20日，象征着力量</item>
+        <item>5月21日至6月21日，象征着智慧</item>
+        <item>6月22日至7月22日，象征着坚强</item>
+        <item>7月23日至8月22日，象征着权利</item>
+        <item>8月23日至9月22日，象征着美丽</item>
+        <item>9月23日至10月23日，象征着平衡</item>
+        <item>10月24日至11月22日，象征着神秘</item>
+        <item>11月23日至12月21日，象征着坦率</item>
+        <item>12月22日至1月19日，象征着坚韧</item>
+        <item>1月20日至2月18日，象征着叛逆</item>
+        <item>2月19日至3月20日，象征着复杂</item>
+    </array>
+
+</resources>

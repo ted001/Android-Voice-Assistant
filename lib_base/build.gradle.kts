@@ -12,7 +12,6 @@ android {
         minSdk = 21
         targetSdk = 32
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")
     }
 
@@ -29,9 +28,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
+
 }
 
 dependencies {
@@ -45,6 +42,11 @@ dependencies {
     api(DependenciesConfig.EVENT_BUS)
     //ARouter
     api(DependenciesConfig.AROUTER)
+    //RecyclerView
+    api(DependenciesConfig.RECYCLERVIEW)
+    //AndPermissions
+    api(DependenciesConfig.AND_PERMISSIONS)
+
 
     api(project(":lib_voice"))
     api(project(":lib_network"))
