@@ -1,7 +1,6 @@
 package com.ted.module_app_manager
 
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import com.ted.lib_base.base.BaseActivity
 
 class AppManagerActivity : BaseActivity() {

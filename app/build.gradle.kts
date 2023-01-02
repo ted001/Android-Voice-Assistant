@@ -1,12 +1,13 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    kotlin("android.extensions")
     kotlin("kapt")
 }
 
 //Android属性
 android {
-    namespace = "com.ted.module_app_manager"
+    namespace = AppConfig.applicationId
     compileSdk = AppConfig.compileSdkVersion
 
     defaultConfig {
@@ -16,6 +17,12 @@ android {
         versionCode = AppConfig.versionCode
         versionName = AppConfig.versionName
 
+        //ARouter
+        kapt {
+            arguments {
+                arg("AROUTER_MODULE_NAME", project.name)
+            }
+        }
 
     }
 
@@ -84,5 +91,8 @@ dependencies {
         implementation(project(":module_voice_setting"))
         implementation(project(":module_weather"))
     }
+
+    //运行时注解
+    kapt(DependenciesConfig.AROUTER_COMPILER)
 
 }

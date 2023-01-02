@@ -1,25 +1,32 @@
-import AppConfig.applicationId
-
 plugins {
     if (ModuleConfig.isApp) {
         id("com.android.application")
     } else {
         id("com.android.library")
     }
-    id("org.jetbrains.kotlin.android")
+    kotlin("android")
+    kotlin("android.extensions")
+    kotlin("kapt")
 }
 
 android {
     compileSdk = AppConfig.compileSdkVersion
-
+    namespace = ModuleConfig.MODULE_APP_MANAGER
     defaultConfig {
-        if (ModuleConfig.isApp) {
+        /*if (ModuleConfig.isApp) {
             applicationId = ModuleConfig.MODULE_APP_MANAGER
-        }
+        }*/
         minSdk = AppConfig.minSdkVersion
         targetSdk = AppConfig.targetSdkVersion
+        //ARouter
+        kapt {
+            arguments {
+                arg("AROUTER_MODULE_NAME", project.name)
+            }
+        }
 
     }
+
 
     buildTypes {
         release {
@@ -55,4 +62,7 @@ dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
     implementation(project(":lib_base"))
+
+    //运行时注解
+    kapt(DependenciesConfig.AROUTER_COMPILER)
 }

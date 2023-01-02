@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">设置</string>
+    <string name="text_version_ui">V%s</string>
+
+    <string name="text_is_play_welcome">欢迎词开关</string>
+    <string name="text_joke_is_background">笑话是否后台播放</string>
+    <string name="text_class_address">课程地址</string>
+    <string name="text_class_address_link">http://www.imooc.com/u/293729</string>
+    <string name="text_app_version">App版本</string>
+</resources>

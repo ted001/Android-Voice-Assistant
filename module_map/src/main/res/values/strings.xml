@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">地图</string>
+    <string name="text_start_navi_tts">5秒后为你导航</string>
+    <string name="text_input_tips">搜索</string>
+</resources>

@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+    kotlin("android")
+    kotlin("android.extensions")
 }
 
 android {
@@ -40,6 +41,10 @@ dependencies {
     api(DependenciesConfig.APP_COMPAT)
     //Kotlin核心库
     api(DependenciesConfig.KTX_CORE)
+    //EventBus
+    api(DependenciesConfig.EVENT_BUS)
+    //ARouter
+    api(DependenciesConfig.AROUTER)
 
     api(project(":lib_voice"))
     api(project(":lib_network"))

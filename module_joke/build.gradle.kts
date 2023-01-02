@@ -1,4 +1,3 @@
-import AppConfig.applicationId
 
 plugins {
     if (ModuleConfig.isApp) {
@@ -6,7 +5,9 @@ plugins {
     } else {
         id("com.android.library")
     }
-    id("org.jetbrains.kotlin.android")
+    kotlin("android")
+    kotlin("android.extensions")
+    kotlin("kapt")
 }
 
 android {
@@ -16,8 +17,15 @@ android {
     defaultConfig {
         minSdk = 21
         targetSdk = 32
-        if (ModuleConfig.isApp) {
-            applicationId = ModuleConfig.MODULE_JOKE
+//        if (ModuleConfig.isApp) {
+//            applicationId = ModuleConfig.MODULE_JOKE
+//        }
+
+        //ARouter
+        kapt {
+            arguments {
+                arg("AROUTER_MODULE_NAME", project.name)
+            }
         }
     }
 
@@ -52,4 +60,6 @@ android {
 dependencies {
 
     implementation(project(":lib_base"))
+    //运行时注解
+    kapt(DependenciesConfig.AROUTER_COMPILER)
 }

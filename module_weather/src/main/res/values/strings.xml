@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">天气</string>
+
+    <string name="text_select_city_title">选择城市</string>
+    <string name="text_city_hot">热门</string>
+    <string name="text_ui_tips">数据由聚合数据提供</string>
+    <string name="text_chart_tips_text">%s未来五天温度</string>
+</resources>
