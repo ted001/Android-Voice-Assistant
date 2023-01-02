@@ -26,6 +26,6 @@ class MainActivity : BaseActivity() {
     }
 
     override fun initView() {
-        ARouterHelper.startActivity(ARouterHelper.PATH_APP_MANAGER)
+        ARouterHelper.startActivity(ARouterHelper.PATH_DEVELOPER)
     }
 }
