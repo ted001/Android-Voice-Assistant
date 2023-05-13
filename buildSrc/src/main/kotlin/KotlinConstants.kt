@@ -12,7 +12,7 @@ object KotlinConstants {
 object AppConfig {
 
     //依赖版本
-    const val compileSdkVersion = 32
+    const val compileSdkVersion = 28
 
     //编译工具版本
     const val buildToolsVersion = "28.0.3"
@@ -24,7 +24,7 @@ object AppConfig {
     const val minSdkVersion = 21
 
     //当前基于SDK
-    const val targetSdkVersion = 32
+    const val targetSdkVersion = 28
 
     //版本编码
     const val versionCode = 1
@@ -40,10 +40,10 @@ object DependenciesConfig {
     const val STD_LIB = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${KotlinConstants.kotlin_version}"
 
     //Android标准库
-    const val APP_COMPAT = "androidx.appcompat:appcompat:1.5.1"
+    const val APP_COMPAT = "androidx.appcompat:appcompat:1.1.0"
 
     //Kotlin核心库
-    const val KTX_CORE = "androidx.core:core-ktx:1.7.0"
+    const val KTX_CORE = "androidx.core:core-ktx:1.2.0"
 
     //EventBus
     const val EVENT_BUS = "org.greenrobot:eventbus:3.2.0"

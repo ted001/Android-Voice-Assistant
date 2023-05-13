@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--语音词语-->
+    <array name="WakeUpListArray">
+        <item>我在呢</item>
+        <item>请说</item>
+        <item>有什么吩咐</item>
+        <item>主人，我在</item>
+    </array>
+
+    <array name="NoAnswerArray">
+        <item>不明白</item>
+        <item>不知道你在说什么</item>
+        <item>这可难倒我了</item>
+        <item>很抱歉，听不懂你在说什么</item>
+    </array>
+
+    <array name="NoSupportArray">
+        <item>暂不支持此功能</item>
+        <item>很抱歉，这个功能我还在学习</item>
+        <item>Sorry,这个我不会</item>
+    </array>
+
+    <array name="QuitArray">
+        <item>好的</item>
+        <item>再见了</item>
+        <item>主人有需要再叫我</item>
+    </array>
+
+</resources>

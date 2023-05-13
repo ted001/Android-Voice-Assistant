@@ -4,5 +4,55 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!--语速-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="@string/text_tts_speed"
+        android:textColor="@android:color/white" />
+
+    <SeekBar
+        android:id="@+id/bar_voice_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+    <!--音量-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="@string/text_tts_volume"
+        android:textColor="@android:color/white" />
+
+    <SeekBar
+        android:id="@+id/bar_voice_volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp" />
+
+    <!--发音人-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="5dp"
+        android:text="@string/text_tts_people"
+        android:textColor="@android:color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_voice_people"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_tts_test" />
 
 </LinearLayout>

@@ -46,7 +46,21 @@ dependencies {
     api(DependenciesConfig.RECYCLERVIEW)
     //AndPermissions
     api(DependenciesConfig.AND_PERMISSIONS)
+    //ViewPager
+    api(DependenciesConfig.VIEWPAGER)
+    api(DependenciesConfig.MATERIAL)
+    //Lottie
+    api(DependenciesConfig.LOTTIE)
+    //刷新
+    api(DependenciesConfig.REFRESH_KERNEL)
+    api(DependenciesConfig.REFRESH_HEADER)
+    api(DependenciesConfig.REFRESH_FOOT)
+    //图表
+    api(DependenciesConfig.CHART)
 
+    //引入Jar与AAR
+    api(files("libs/BaiduLBS_Android.jar"))
+    api(files("libs/IndoorscapeAlbumPlugin.jar"))
 
     api(project(":lib_voice"))
     api(project(":lib_network"))

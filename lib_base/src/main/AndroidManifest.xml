@@ -1,4 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 获取访问手机振动器权限，用于导航过程中的震动提示 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 获取摄像头权限，用于AR步行导航 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <application>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.baidu.speech.APP_ID"
+            android:value="29458886" />
+
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="LlmBvHjtuM20y5ELkIWQRMnw" />
+
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="53Yp6n3bmTyhEVAorGGFrZWTFhfgGwOW" />
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="waPaCFXHkfio8n5lS3YrAi3gN0A8NfWK" />
+
+        <service android:name=".service.InitService" />
+    </application>
 </manifest>

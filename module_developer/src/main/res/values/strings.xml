@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">开发者模式</string>
+
+    <string name="text_tts_play">你好,我是小爱同学，很高兴认识你</string>
+</resources>

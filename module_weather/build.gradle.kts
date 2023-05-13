@@ -56,6 +56,7 @@ android {
 }
 
 dependencies {
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(project(":lib_base"))
     //运行时注解
     kapt(DependenciesConfig.AROUTER_COMPILER)

@@ -3,4 +3,16 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <!--主页颜色-->
+    <color name="colorWeather">#0074D9</color>
+    <color name="colorConstell">#99cc33</color>
+    <color name="colorJoke">#cb99c5</color>
+    <color name="colorMap">#ac8649</color>
+    <color name="colorAppManager">#2aa515</color>
+    <color name="colorVoiceSetting">#ff9a9e</color>
+    <color name="colorAppSystemSetting">#515151</color>
+    <color name="colorAppDeveloper">#d81e06</color>
+
+    <color name="colorWindowBg">#37000000</color>
 </resources>

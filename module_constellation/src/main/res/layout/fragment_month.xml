@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="白羊座" />
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016年12月" />
+
+            <TextView
+                android:id="@+id/tvAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="all" />
+
+            <TextView
+                android:id="@+id/tvHappy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="happyMagic" />
+
+            <TextView
+                android:id="@+id/tvHealth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="health" />
+
+            <TextView
+                android:id="@+id/tvLove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="love" />
+
+            <TextView
+                android:id="@+id/tvMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="money" />
+
+            <TextView
+                android:id="@+id/tvMonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="month" />
+
+            <TextView
+                android:id="@+id/tvWork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="work" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

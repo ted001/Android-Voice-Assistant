@@ -1,3 +1,63 @@
 <resources>
-    <string name="app_name">AiVoiceApp</string>
+    <string name="app_name">AI语音助手</string>
+
+    <string name="text_voice_run_text">正在运行</string>
+    <string name="text_voice_wakeup_text">小爱同学</string>
+    <string name="text_voice_wakeup_tips">正在聆听…</string>
+    <string name="text_voice_app_open">正在为你打开%s</string>
+    <string name="text_voice_app_not_open">很抱歉，无法为你打开%s</string>
+    <string name="text_voice_app_uninstall">正在为你卸载%s</string>
+    <string name="text_voice_app_not_uninstall">很抱歉，无法为你卸载%s</string>
+    <string name="text_voice_app_option">正在操作%s</string>
+    <string name="text_voice_back_text">正在为你执行返回操作</string>
+    <string name="text_voice_home_text">正在为你返回主页</string>
+    <string name="text_voice_volume_add">正在增加音量</string>
+    <string name="text_voice_volume_sub">正在减小音量</string>
+    <string name="text_voice_query_con_tell_info">正在为你查询%s的详情</string>
+    <string name="text_voice_call">正在为你拨打%s</string>
+    <string name="text_voice_no_friend">通讯录中无此联系人</string>
+    <string name="text_voice_query_joke">正在为你搜索笑话</string>
+    <string name="text_voice_query_weather_error">无法为你查询%s的天气</string>
+    <string name="text_voice_query_weather">正在为你查询%s的天气详情</string>
+    <string name="text_voice_query_poi">正在为你搜索周边的%s</string>
+    <string name="text_voice_query_navi">正在为你规划去%s的路线</string>
+    <string name="text_voice_query_joke_error">很抱歉，未搜索到笑话</string>
+
+    <!--主页列表图标-->
+    <string-array name="MainIconArray">
+        <item>@drawable/img_main_weather</item>
+        <item>@drawable/img_mian_contell</item>
+        <item>@drawable/img_main_joke_icon</item>
+        <item>@drawable/img_main_map_icon</item>
+        <item>@drawable/img_main_app_manager</item>
+        <item>@drawable/img_main_voice_setting</item>
+        <item>@drawable/img_main_system_setting</item>
+        <item>@drawable/img_main_developer</item>
+    </string-array>
+
+
+    <!--主页列表颜色-->
+    <array name="MainColorArray">
+        <item>@color/colorWeather</item>
+        <item>@color/colorConstell</item>
+        <item>@color/colorJoke</item>
+        <item>@color/colorMap</item>
+        <item>@color/colorAppManager</item>
+        <item>@color/colorVoiceSetting</item>
+        <item>@color/colorAppSystemSetting</item>
+        <item>@color/colorAppDeveloper</item>
+    </array>
+
+    <!--主页列表标题-->
+    <array name="MainTitleArray">
+        <item>天气</item>
+        <item>星座</item>
+        <item>笑话</item>
+        <item>地图</item>
+        <item>应用管理</item>
+        <item>语音设置</item>
+        <item>系统设置</item>
+        <item>开发者模式</item>
+    </array>
+
 </resources>

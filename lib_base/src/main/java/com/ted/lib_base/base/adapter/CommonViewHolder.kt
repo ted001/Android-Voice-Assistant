@@ -9,7 +9,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 
-class CommonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+class  CommonViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     //Viw复用
     private var mViews: SparseArray<View?> = SparseArray()

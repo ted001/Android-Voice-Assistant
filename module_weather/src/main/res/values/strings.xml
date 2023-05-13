@@ -5,4 +5,29 @@
     <string name="text_city_hot">热门</string>
     <string name="text_ui_tips">数据由聚合数据提供</string>
     <string name="text_chart_tips_text">%s未来五天温度</string>
+    <string name="text_load_fail">加载失败</string>
+
+    <!--天气-->
+    <string name="app_weather_t">°</string>
+    <string name="app_weather_humidity">湿度</string>
+    <string name="app_weather_direct">风向</string>
+    <string name="app_weather_power">风力</string>
+    <string name="app_weather_aqi">空气</string>
+    <string name="app_weather_data_error">数据异常</string>
+    <string name="app_weather_hot">热门</string>
+    <string name="app_weather_city">市</string>
+    <string name="app_weather_district">县</string>
+
+    <!--热门城市-->
+    <array name="HotCityArray">
+        <item>深圳</item>
+        <item>广州</item>
+        <item>东莞</item>
+        <item>惠州</item>
+        <item>佛山</item>
+        <item>珠海</item>
+        <item>长沙</item>
+        <item>武汉</item>
+        <item>北京</item>
+    </array>
 </resources>

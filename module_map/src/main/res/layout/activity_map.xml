@@ -3,5 +3,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/mMapView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ryPoiView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etSearchPoi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/shape_edit_bg"
+        android:hint="@string/text_input_tips"
+        android:paddingStart="10dp" />
+
 
 </RelativeLayout>

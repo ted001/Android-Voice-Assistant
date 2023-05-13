@@ -7,6 +7,7 @@ import com.ted.lib_base.base.BaseActivity
 import com.ted.lib_base.base.adapter.CommonAdapter
 import com.ted.lib_base.base.adapter.CommonViewHolder
 import com.ted.lib_base.helper.ARouterHelper
+import com.ted.lib_voice.manager.VoiceManager
 import com.ted.module_developer.data.DeveloperListData
 import com.yanzhenjie.permission.AndPermission
 import com.yanzhenjie.permission.runtime.Permission
@@ -120,19 +121,19 @@ class DeveloperActivity : BaseActivity() {
             6 -> ARouterHelper.startActivity(ARouterHelper.PATH_VOICE_SETTING)
             7 -> ARouterHelper.startActivity(ARouterHelper.PATH_WEATHER)
 
-//            9 -> VoiceManager.startAsr()
-//            10 -> VoiceManager.stopAsr()
-//            11 -> VoiceManager.cancelAsr()
-//            12 -> VoiceManager.releaseAsr()
-//
-//            14 -> VoiceManager.startWakeUp()
-//            15 -> VoiceManager.stopWakeUp()
-//
-//            20 -> VoiceManager.ttsStart(getString(R.string.text_tts_play))
-//            21 -> VoiceManager.ttsPause()
-//            22 -> VoiceManager.ttsResume()
-//            23 -> VoiceManager.ttsStop()
-//            24 -> VoiceManager.ttsRelease()
+            9 -> VoiceManager.startAsr()
+            10 -> VoiceManager.stopAsr()
+            11 -> VoiceManager.cancelAsr()
+            12 -> VoiceManager.releaseAsr()
+
+            14 -> VoiceManager.startWakeUp()
+            15 -> VoiceManager.stopWakeUp()
+
+            20 -> VoiceManager.ttsStart(getString(R.string.text_tts_play))
+            21 -> VoiceManager.ttsPause()
+            22 -> VoiceManager.ttsResume()
+            23 -> VoiceManager.ttsStop()
+            24 -> VoiceManager.ttsRelease()
         }
     }
 }

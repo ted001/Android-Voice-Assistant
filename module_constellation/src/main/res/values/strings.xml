@@ -13,4 +13,6 @@
     <string name="text_con_tell_color">幸运颜色：%s</string>
     <string name="text_con_tell_desc">今日概述：%s</string>
 
+    <string name="text_load_fail">加载失败</string>
+
 </resources>

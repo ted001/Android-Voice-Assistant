@@ -81,18 +81,6 @@
         <item>启动电话</item>
     </array>
 
-    <!--主页列表标题-->
-    <array name="MainTitleArray">
-        <item>天气</item>
-        <item>星座</item>
-        <item>笑话</item>
-        <item>地图</item>
-        <item>应用管理</item>
-        <item>语音设置</item>
-        <item>系统设置</item>
-        <item>开发者模式</item>
-    </array>
-
     <!--商店列表-->
     <array name="AppMarketArray">
         <!--Google Play-->

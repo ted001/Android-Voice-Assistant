@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mCityListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.ted.module_weather.view.CitySelectView
+        android:id="@+id/mCitySelectView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/mShowCity"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</RelativeLayout>
